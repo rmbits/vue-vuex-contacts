@@ -68,7 +68,7 @@
         <ul class="list-group">
           <li v-for="address in contact.addresses" :key="address.id" class="list-group-item">
             <label v-if="editIdDetail !== address.id + 'address'">
-              <i class="fas fa-mobile-alt"></i> {{ address.address }}
+              <i class="fas fa-map-marker-alt"></i> {{ address.address }}
             </label>
             <div v-if="editIdDetail !== address.id + 'address'" class="btn-group float-right">
               <button class="btn btn-sm btn-warning" type="button"
@@ -104,7 +104,7 @@
         <ul class="list-group">
           <li v-for="email in contact.emails" :key="email.id" class="list-group-item">
             <label v-if="editIdDetail !== email.id +  'email'">
-              <i class="fas fa-mobile-alt"></i> {{ email.email }}
+              <i class="fas fa-envelope"></i> {{ email.email }}
             </label>
             <div v-if="editIdDetail !== email.id +  'email'" class="btn-group float-right">
               <button class="btn btn-sm btn-warning" type="button"
