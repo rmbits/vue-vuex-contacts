@@ -8,7 +8,7 @@
       <li>Bootstrap</li>
       <li>UUID</li>
     </ul>
-    <p>* Backend data is stored as JSONJS file. CRUD operations update front-end state only.</p>
+    <p>* Back-end data is stored as JSONJS file. CRUD operations update front-end state only.</p>
   </div>
 </template>
 
