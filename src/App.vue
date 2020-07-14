@@ -3,7 +3,7 @@
     <div id="nav">
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
-          <router-link class="navbar-brand" to="/">Contacts
+          <router-link class="navbar-brand" to="/">Contacts</router-link>
           <button class="navbar-toggler" type="button"
             data-toggle="collapse" data-target="#navbarsExample07"
             aria-controls="navbarsExample07" aria-expanded="false"
